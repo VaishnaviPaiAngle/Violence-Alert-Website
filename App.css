@@ -1,38 +1,149 @@
-.App {
+CSS for App component */
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 3500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  border:500px ;
+  margin-top: 200px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* CSS for ImageUploader component */
+/* .center-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #ccc;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+img {
+  margin-top: 16px;
+}
+
+.preview-container {
+  margin-top: 16px;
+  border: 1px solid #ccc;
+  padding: 16px;
+  max-width: 100%;
+} */
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Header styles */
+.header {
+  margin-top: 100px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Main container styles */
+.container {
+  
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Image uploader container */
+.image-uploader-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Image uploader button styles */
+.image-uploader-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Image preview container styles */
+.image-preview-container {
+  margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Image preview styles */
+.image-preview {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(164, 78, 78, 0.1);
+}
+/* CSS for ImageUploader component */
+.center-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #ccc;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+img {
+  margin-top: 16px;
+}
+
+.preview-container {
+  margin-top: 16px;
+  border: 1px solid #ccc;
+  padding: 16px;
+  max-width: 100%;
 }

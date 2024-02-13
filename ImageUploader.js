@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import './ImageUploader.css';
 const ImageUploader = () => {
   const [image, setImage] = useState(null);
 
@@ -17,7 +17,7 @@ const ImageUploader = () => {
   };
 
   return (
-    <div>
+    <div  className="center-box">
       <input
         type="file"
         accept="image/*"
